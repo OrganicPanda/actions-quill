@@ -16,4 +16,3 @@ The default setting is to run on port 80, but this can be modified in ```server.
 ## Future Work
 - Encryption:  Encrypting text with cloud editing software is complicated as only deltas representing the change between the document are sent over the socket and saved to the database. One workaround may be to use variable block length encryption to send chunks over the sockets that would still be unreadable to the server. A client-side JavaScript library would then perform the decryption for the users that are editing the document
 - Export to ODT and DOCX: Unlike Google Docs, this would be preferable to be accomplished client-side, as to play nice with encryption. This feature would definitely be required though to make the software viable.
->>>>>>> 59fb145... Forked from git@github.com:vgmoose/quill-ws.git
